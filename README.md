@@ -1,15 +1,14 @@
-# 测试报告模版
+# 生成多页模版
 
 ## 🗃 特色功能
 
 1. 最新技术栈: React 17 + TypeScript 4 + Webpack 5
-2. 以模块开发，根据需求任意搭配数据模块生成各端报告模版
+2. 以模块开发，根据需求任意搭配数据模块生成多种模版
 3. 以多页的形式呈现
 4. 支持热更新
 5. CSS Encapsulation 作用域隔离 Scoped-SCSS
-6. 腾讯 JS/TS/CSS 编码规范检查和 Prettier 统一代码风格化
+6. JS/TS/CSS 编码规范检查和 Prettier 统一代码风格化
 7. Jest 单元测试框架和 Enzyme 测试库
-8. 符合 EPC 的 Angular + EPC CommitLint 代码提交规范和 Husky 提交预检查
 
 ## 🧑🏻‍💻 基本指令
 
@@ -45,7 +44,7 @@
 ├── package.json
 ├── public 
 │   ├── index.html --- 插件的模板文件
-├── src --- 前段页面组件代码
+├── src --- 前端页面组件代码
 │   ├── api --- 依赖的外部请求
 │   │   ├── index.ts
 │   │   └── req.ts
